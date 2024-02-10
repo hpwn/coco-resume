@@ -1,0 +1,189 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Hayden Price} \\ \vspace{1pt}
+    \small 520-904-2061 $|$ \href{mailto:hwp@arizona.edu}{\underline{hwp@arizona.edu}} $|$ 
+    \href{https://linkedin.com/in/hwp}{\underline{linkedin.com/in/hwp}} $|$
+    \href{https://github.com/hpwn}{\underline{github.com/hpwn}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Arizona}{Tucson, AZ}
+      {Bachelor of Arts in Computer Science, Minor in Mathematics}{December 2023}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Team Manager, Customer Experience}{February 2022 -- April 2023}
+      {Alorica}{Tucson, AZ}
+      \resumeItemListStart
+        \resumeItem{Boosted agent productivity by crafting plans from behavioral analytics, leading to improved efficiency}
+        \resumeItem{Elevated team quality by 10\% through custom software-focused training programs, optimizing support skills}
+        \resumeItem{Reduced handle time by a minute and follow-up rate by 25\% by implementing data-driven process improvements}
+        \resumeItem{Led IT collaboration and coaching, improving agent technical skills and overall productivity by 5\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Project Manager, Game Development Intern}{April 2022 -- August 2022}
+      {University of Arizona}{Tucson, AZ}
+      \resumeItemListStart
+        \resumeItem{Directed TechDuel.io, a 2D platformer game using Agile/Scrum, resulting in a successful game prototype}
+        \resumeItem{Orchestrated cross-functional team efforts securing milestone completions and improving overall team performance}
+        \resumeItem{Implemented real-time playability in TechDuel.io using WebSockets, boosting user interaction and engagement}
+        \resumeItem{Managed project timelines and budgets using Jira, delivering the project successfully within allocated resources}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Information Technology Support Specialist}{January 2015 -- March 2020}
+      {University of Arizona}{Tucson, AZ}
+      \resumeItemListStart
+        \resumeItem{Provided top-tier in-person and phone support to university affiliates enhancing user experience and service quality}
+        \resumeItem{Conducted comprehensive computer and software evaluations, rapidly identifying and diagnosing technical issues}
+        \resumeItem{Tackled and resolved complex technical challenges, improving affiliate's effective use of key technologies}
+        \resumeItem{Boosted customer satisfaction through detailed documentation and proactive follow-up, ensuring resolution efficacy}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+          {\textbf{Real-Time AI Twitch Streamer} $|$ \emph{AI/ML, Twitch API, Unreal Engine 5.3, MetaHuman, Oculus, C++, Python}}{}
+          \resumeItemListStart
+            \resumeItem{Developed AI-driven Twitch streamer using a text AI/ML model and Twitch API for live chat interaction}
+            \resumeItem{Created realistic MetaHuman model in Unreal Engine 5.3, enhancing virtual streaming engagement}
+            \resumeItem{Implemented custom-trained TTS model, syncing AI responses with MetaHuman speech via Oculus Lipsync}
+            \resumeItem{Applied Test-Driven Development for a robust, 24/7 operational AI streamer, capable of continuous learning}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{http://www.haydenprice.com}{\underline{\textbf{HaydenPrice.com}}} $|$ \emph{React, AWS, Apache, Docker, TypeScript, Stripe API}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a responsive portfolio and e-commerce site, enhancing user experience with advanced web technologies}
+            \resumeItem{Used TypeScript for dynamic content in about me and project sections, sourcing data from JSON and markdown}
+            \resumeItem{Integrated Stripe API for e-commerce transactions, enhancing commercial functionality and payment experience}
+            \resumeItem{Containerized application using Docker, promoting consistent deployment across platforms and environments}
+            \resumeItem{Deployed on AWS EC2 with Apache, achieving robust, scalable hosting and optimized website performance}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/Norged-Out/Tech-Core-Game-2022}{\underline{\textbf{TechDuel.io}}} $|$ \emph{Unity, C\#, WebGL, Jira, Websocket}}{}
+          \resumeItemListStart
+            \resumeItem{Managed 2D platformer shooter game project using Agile and Jira for team coordination and deadline adherence}
+            \resumeItem{Participated in a 5-member team, employing Agile/Scrum for weekly sprint reviews, enhancing project efficiency}
+            \resumeItem{Enabled real-time, in-browser gameplay with WebSockets, boosting player interaction and game dynamics}
+            \resumeItem{Ensured successful collaboration with developers to achieve project milestones and maintain high quality standards}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, JavaScript, TypeScript, HTML/CSS, C\#} \\
+     \textbf{Frameworks}{: React, Node.js, JavaFX, Maven, WebSocket, Unity, FastAPI, JUnit} \\
+     \textbf{Web Technologies}{: AWS, Docker, Apache, WebSockets, Stripe API} \\
+     \textbf{Developer Tools}{: Git, Jira, Trello, Visual Studio, Eclipse} \\
+     \textbf{3D Modeling and Animation}{: Blender, Unreal Engine 5.3, MetaHuman, Oculus Lipsync} \\
+     \textbf{Methodologies}{: Agile/Scrum, MVC, Iterative Design, Test-Driven Development (TDD)} \\
+     \textbf{AI/ML Technologies}{: Custom AI/ML Models, Text-to-Speech (TTS) Systems} \\
+     \textbf{Project Management Tools}{: Jira, Trello, Agile Project Management Tools}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
