@@ -1,0 +1,2 @@
+openai==0.10.2  # Replace with the latest version as necessary
+python-dotenv==0.19.0  # Replace with the latest version as necessary
