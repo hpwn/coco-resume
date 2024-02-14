@@ -1,5 +1,14 @@
 
 import openai
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
+openai_api_key = os.getenv('OPENAI_API_KEY')
+
+# Set the API key for the OpenAI API calls
+openai.api_key = openai_api_key
 
 # Define the function to call the OpenAI API using GPT-3
 def gpt3_call(prompt, engine='davinci', max_tokens=100):
@@ -12,15 +21,7 @@ def gpt3_call(prompt, engine='davinci', max_tokens=100):
 
 # Function to parse the job description and extract relevant skills and technologies
 def parse_job_description(job_description):
-    # Placeholder for actual NLP code to extract keywords from job description
-    skills = []
-    technologies = []
-    experiences = []
-    
-    # Here we would have the code to analyze the job description and extract necessary skills and experiences.
-    # For now, we will just use a GPT-3 call to simulate this. In practice, you would use a more sophisticated approach.
-    
-    # Simulate NLP extraction with GPT-3 (this is a placeholder)
+    # Extract keywords related to skills, technologies, and experiences using GPT-3
     skills_prompt = f"Extract all the skills and technologies required for this job:\n\n{job_description}"
     skills = gpt3_call(skills_prompt)
     
@@ -30,7 +31,6 @@ def parse_job_description(job_description):
     # Return a dictionary of the parsed elements
     return {
         'skills': skills,
-        'technologies': technologies,
         'experiences': experiences
     }
 
