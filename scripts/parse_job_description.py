@@ -11,7 +11,7 @@ openai.api_key = openai_api_key
 
 
 # Define the function to call the OpenAI API using GPT-3
-def gpt3_call(prompt, engine="davinci", max_tokens=100):
+def gpt3_call(prompt, engine="davinci-002", max_tokens=100):
     response = openai.Completion.create(
         engine=engine, prompt=prompt, max_tokens=max_tokens
     )
