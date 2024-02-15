@@ -1,7 +1,8 @@
 from openai import OpenAI
-
 from dotenv import load_dotenv
 import os
+import json
+from collections import deque
 
 # Load environment variables from .env file
 load_dotenv()
@@ -11,7 +12,6 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
 
-# Define the function to call the OpenAI API using GPT-3.5-turbo
 def gpt3_call(prompt, model="gpt-3.5-turbo", max_tokens=100):
     response = client.chat.completions.create(
         model=model,
@@ -27,7 +27,6 @@ def gpt3_call(prompt, model="gpt-3.5-turbo", max_tokens=100):
         return "No response generated."
 
 
-# Function to parse the job description from an input file and extract relevant skills and technologies
 def parse_job_description(file_path):
     with open(file_path, "r") as file:
         job_description = file.read()
@@ -38,13 +37,37 @@ def parse_job_description(file_path):
     experiences_prompt = f"Extract all the experiences that would make a candidate ideal for this job:\n\n{job_description}"
     experiences = gpt3_call(experiences_prompt)
 
-    # Return a dictionary of the parsed elements
-    return {"skills": skills, "experiences": experiences}
+    return {
+        "job_description": job_description,
+        "skills": skills,
+        "experiences": experiences,
+    }
 
 
-# Location of the job description input file
+def update_job_data_file(data, file_path):
+    # Check if the file exists and read the existing data
+    if os.path.exists(file_path):
+        with open(file_path, "r") as file:
+            existing_data = file.read()
+    else:
+        existing_data = ""
+
+    # Prepend the new data to the existing data
+    new_data = json.dumps(data) + "\n" + existing_data
+
+    # Write the updated data back to the file
+    with open(file_path, "w") as file:
+        file.write(new_data)
+
+
+# Location of the job description input file and output file
 job_description_file_path = "input/job_description.txt"
+output_file_path = "output/job_data/job_data_log.txt"
 
 # Parse the job description from the input file
 parsed_data = parse_job_description(job_description_file_path)
-print(parsed_data)
+
+# Update the output file with the parsed data
+update_job_data_file(parsed_data, output_file_path)
+
+print("Job data updated successfully.")
