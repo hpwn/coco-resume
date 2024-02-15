@@ -1,0 +1,58 @@
+{
+    "skills": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "C/C++",
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS",
+            "C#"
+        ],
+        "frameworks": [
+            "React",
+            "Node.js",
+            "JavaFX",
+            "Maven",
+            "WebSocket",
+            "Unity",
+            "FastAPI",
+            "JUnit"
+        ],
+        "web_technologies": [
+            "AWS",
+            "Docker",
+            "Apache",
+            "WebSockets",
+            "Stripe API"
+        ],
+        "developer_tools": [
+            "Git",
+            "Jira",
+            "Trello",
+            "Visual Studio",
+            "Eclipse"
+        ],
+        "3d_modeling_and_animation": [
+            "Blender",
+            "Unreal Engine 5.3",
+            "MetaHuman",
+            "Oculus Lipsync"
+        ],
+        "methodologies": [
+            "Agile/Scrum",
+            "MVC",
+            "Iterative Design",
+            "Test-Driven Development (TDD)"
+        ],
+        "ai_ml_technologies": [
+            "Custom AI/ML Models",
+            "Text-to-Speech (TTS) Systems"
+        ],
+        "project_management_tools": [
+            "Jira",
+            "Trello",
+            "Agile Project Management Tools"
+        ]
+    }
+}

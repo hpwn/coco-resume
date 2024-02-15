@@ -1,0 +1,16 @@
+{
+    "basic_information": {
+        "name": "Hayden Price",
+        "phone": "520-904-2061",
+        "email": "hwp@arizona.edu",
+        "linkedin": "linkedin.com/in/hwp",
+        "github": "github.com/hpwn",
+        "location": "Tucson, AZ"
+    },
+    "education": {
+        "school": "University of Arizona",
+        "location": "Tucson, AZ",
+        "degree": "Bachelor of Arts in Computer Science, Minor in Mathematics",
+        "date": "December 2023"
+    }
+}
