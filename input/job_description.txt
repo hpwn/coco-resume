@@ -1,0 +1,39 @@
+ About the job
+Join us on our mission to create a completely new, 100% digital bank that truly serves customers' best interests. We are a close-knit and fun-loving team of seasoned financial services professionals who came together for the challenge of building a bank from scratch - and we are committed to doing it all the right way (from technology infrastructure to modern marketing to customer experience).
+
+The anticipated salary range for this role is between $78,000.00 and $145,000.00. The specific salary offered to an applicant will be based on their individual qualifications, experiences, and an analysis of the current compensation paid in their geography and the market for similar roles at the time of hire. The role may also be eligible for an annual discretionary incentive award. In addition to cash compensation, SMBC offers a competitive portfolio of benefits to its employees.
+
+We work with the flexibility and speed of a start-up. But we also have significant stability and capital from being part of the SMBC Group (Sumitomo Mitsui Banking Corporation). SMBC is the second largest bank in Japan and the 12th largest bank in the world with operations in over forty countries. And SMBC is committed to disrupting the US marketplace with ground-breaking products.
+
+It is the best of both worlds, and we are seeking proven marketing leaders to propel us towards a national launch. We have both the ambitious growth plans and the 'patient capital' necessary to execute a multi-year plan. Join us on the journey to deliver an exciting concept of evolved banking.
+
+Summary
+
+Imagine helping to build and design an entire Digital Business Unit for Online Banking. We have a great opportunity for an innovative and effective Software Engineer.
+
+We are seeking a strong Software Engineer for our Middleware/API engineering team. This team is responsible for building the Customer facing Omni Channel Services using Java, Kotlin. In this role, you will work as Engineer in an Agile team and collaborate with Product Owner, Designer, and QA to design, build & maintain the Digital Bank.
+
+Principal Duties And Responsibilities
+
+    Applying design patterns in developing scalable and highly performant application/features
+    Writing code and unit tests, automation, code reviews and testing
+    Deploying to production and DevOps
+    Work with product managers to prioritize features for ongoing sprints and manage a list of technical requirements based on industry trends, new technologies, known defects, and issues.
+    Manage your own time and work well both independently and as part of a team.
+    Quickly generate and update proof of concepts for testing and team feedback Embrace emerging standards while promoting best practices.
+
+Position Specifications
+
+    Bachelor’s degree in computer sciences or equivalent.
+    2+ years of Java/ functional programming experience. 
+    1+ year of experience with Public Cloud Platform (AWS, Azure, Google Cloud).
+    Experience designing and supporting customer facing RESTful APIs.
+    Thorough understanding of JSON, Web Service technologies, and data structure fundamentals.
+    Good understanding of design concepts and design patterns.
+    Demonstrated experience in Agile development, application design, software development, and testing.
+    Aptitude for learning and applying programming concepts.
+    Collaborator, self-starter, and passion for programming.
+    Ability to effectively communicate with Stakeholders, Product, and Experience owners.
+    Experience with CICD tools and DevOps.
+    Knowledge of Kotlin and GraphQL is a plus.
+    Experience with financial services is a plus. 
