@@ -7,7 +7,8 @@
             "JavaScript",
             "TypeScript",
             "HTML/CSS",
-            "C#"
+            "C#",
+            "Go"
         ],
         "frameworks": [
             "React",
@@ -17,21 +18,24 @@
             "WebSocket",
             "Unity",
             "FastAPI",
-            "JUnit"
+            "JUnit",
+            "Gorilla/Mux"
         ],
         "web_technologies": [
             "AWS",
             "Docker",
             "Apache",
             "WebSockets",
-            "Stripe API"
+            "Stripe API",
+            "SSL/TLS"
         ],
         "developer_tools": [
             "Git",
             "Jira",
             "Trello",
             "Visual Studio",
-            "Eclipse"
+            "Eclipse",
+            "Go Logging"
         ],
         "3d_modeling_and_animation": [
             "Blender",
@@ -43,7 +47,8 @@
             "Agile/Scrum",
             "MVC",
             "Iterative Design",
-            "Test-Driven Development (TDD)"
+            "Test-Driven Development (TDD)",
+            "Real-Time Application Development"
         ],
         "ai_ml_technologies": [
             "Custom AI/ML Models",

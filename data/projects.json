@@ -1,6 +1,23 @@
 {
     "projects": [
         {
+            "title": "EloraChat - Real-time Chat Application for Streamers",
+            "url": "",
+            "technologies": "Go, WebSocket, HTML, CSS, JavaScript, SSL/TLS, Docker, CI/CD, Go Logging",
+            "bullets": [
+                "Engineered a robust back-end in Go, orchestrating real-time chat integration with Twitch and YouTube using WebSocket technology for live streaming.",
+                "Developed a responsive front-end interface using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and a seamless user experience.",
+                "Implemented WebSocket protocol optimization for persistent connections, handling connection drops and reconnections efficiently.",
+                "Enhanced error handling on both client and server-side, leading to improved application stability and user experience.",
+                "Streamlined logging and analysis using structured Go logging, facilitating efficient debugging and issue resolution.",
+                "Integrated SSL/TLS protocols to secure user communications, ensuring end-to-end encryption and data protection.",
+                "Automated deployment processes through CI/CD pipelines, resulting in faster deployment times and immediate code change feedback.",
+                "Innovated dynamic chat features like message queuing, significantly improving user interaction during live streams.",
+                "Contributed to a notable increase in streamer viewership and audience engagement due to enhanced chat functionalities.",
+                "Authored comprehensive documentation for the application, outlining best practices and operating procedures."
+            ]
+        },        
+        {
             "title": "Real-Time AI Twitch Streamer",
             "technologies": "AI/ML, Twitch API, Unreal Engine 5.3, MetaHuman, Oculus, C++, Python",
             "bullets": [
