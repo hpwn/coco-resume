@@ -1,8 +1,10 @@
 # coco-resume🌸
 
-Crash... _you're never gonna get a job with this resume!_ Let's use my app to build one that actually _signals trust!_
+Coco: "Crash... _you're never gonna get a job with this resume!_ Let's use my app to build one that actually _signals trust!_"
 
 ![Coco](https://femhype.files.wordpress.com/2015/08/coco1.png)
+
+Crash's 🧠: "It's not called _Coco_ Team Racing..."
 
 ## Description 📝
 
