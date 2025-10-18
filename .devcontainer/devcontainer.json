@@ -1,0 +1,25 @@
+{
+  "name": "coco-resume",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "features": {},
+  "postCreateCommand": "pnpm install",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "eslint.workingDirectories": [
+          "apps/cli",
+          "packages/core",
+          "packages/ai",
+          "packages/export",
+          "packages/data"
+        ]
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
